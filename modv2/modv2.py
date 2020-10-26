@@ -3,7 +3,7 @@ from discord.ext import commands
 from core import checks
 from core.models import PermissionLevel
 
-class mod(commands.Cog):
+class modv2(commands.Cog):
 
     def __init__(self, bot):
         self.bot = bot
@@ -445,4 +445,4 @@ class mod(commands.Cog):
             await ctx.send(embed = embed)
 
 def setup(bot):
-    bot.add_cog(mod(bot))
+    bot.add_cog(modv2(bot))
