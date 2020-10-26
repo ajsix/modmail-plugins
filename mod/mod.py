@@ -3,7 +3,7 @@ from discord.ext import commands
 from core import checks
 from core.models import PermissionLevel
 
-class moderation(commands.Cog):
+class mod(commands.Cog):
 
     def __init__(self, bot):
         self.bot = bot
